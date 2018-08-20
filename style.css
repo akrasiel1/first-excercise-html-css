@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/sunset.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: #fafafa;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: "Exo";
+    font-size: 18px;
+}
+
+.main-nav li a:hover {
+    color: #182c4d;
+    transition: all 0.15s ease-in-out;
+}
+
+.logo {
+    position: relative;
+    top: 96%;
+    margin-left: 5px;
+    font-family: "Exo";
+    color: #fafafa;
+    font-size: 10px;
+}
+
