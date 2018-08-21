@@ -34,12 +34,42 @@ body {
     transition: all 0.15s ease-in-out;
 }
 
-.logo {
-    position: relative;
-    top: 96%;
-    margin-left: 5px;
+.footer {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
     font-family: "Exo";
     color: #fafafa;
     font-size: 10px;
+    display: inline-block;
 }
 
+.author {
+    font-size: 12px;
+}
+
+
+
+.centerpage {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.intro {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: -5px;
+}
